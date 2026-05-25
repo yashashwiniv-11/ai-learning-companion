@@ -1,7 +1,3 @@
-"""
-Quick demo showcasing the agent's capabilities
-"""
-
 from agent.learning_agent import LearningCompanionAgent
 
 def run_demo():
