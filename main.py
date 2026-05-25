@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 AI Learning Companion - Main Application
 A beautiful, interactive CLI for personalized learning assistance
