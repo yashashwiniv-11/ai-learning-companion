@@ -104,7 +104,7 @@ class ProgressFetcher:
             return "   None"
         
         lines = []
-        for topic in topics[:5]:  # Show first 5
+        for topic in topics[:5]: 
             difficulty = topic.get('difficulty', 'N/A')
             hours = topic.get('hours', '')
             if hours:
