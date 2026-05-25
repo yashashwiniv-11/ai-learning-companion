@@ -8,7 +8,6 @@ from datetime import datetime
 from typing import List, Dict, Optional
 
 class ConversationMemory:
-    """Manages conversation history with SQLite storage"""
     
     def __init__(self, db_path: str = "database/learning.db"):
         self.db_path = db_path
