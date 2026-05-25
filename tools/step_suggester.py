@@ -88,7 +88,6 @@ class StepSuggester:
         return suggestion
     
     def _get_study_tip(self, progress_data: Dict) -> str:
-        """Provide context-aware study tips"""
         
         tips = [
             "Tip: Take a 5-minute break every 25 minutes (Pomodoro technique)",
