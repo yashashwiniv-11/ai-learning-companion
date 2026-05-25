@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-🎓 AI Learning Companion - Main Application
+AI Learning Companion - Main Application
 A beautiful, interactive CLI for personalized learning assistance
 """
 
@@ -9,10 +9,8 @@ import sys
 from datetime import datetime
 from dotenv import load_dotenv
 
-# Load environment variables
 load_dotenv()
 
-# Import our agent
 from agent.learning_agent import LearningCompanionAgent
 
 def print_banner():
